@@ -8,6 +8,9 @@ import Nav from './components/layouts/Nav';
 import Portfolio from './components/Portfolio';
 import Services from './components/Services';
 import Testimonials from './components/Testimonials';
+import smoothscroll from 'smoothscroll-polyfill';
+
+smoothscroll.polyfill();
 
 const App = () => {
   return (
