@@ -1,8 +1,9 @@
 import React from 'react'
+import { Section } from './commons'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <Section id="contact">Contact</Section>
   )
 }
 

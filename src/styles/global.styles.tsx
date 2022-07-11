@@ -1,8 +1,8 @@
 import { createGlobalStyle } from 'styled-components';
 import bgTexture from '../assets/images/bg-texture.png';
-import responsive from './responsive';
+import mixins from './mixins';
 
-const GlobalStyles = createGlobalStyle`
+const GlobalStyles = createGlobalStyle` 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:wght@300;400;500;600;700&display=swap');
 
 * {
@@ -46,36 +46,12 @@ body {
   background-image: url(${bgTexture});
 }
 
-.container {
-  width: var(--container-width-lg);
-  margin: 0 auto;
-}
-
 h1,h2,h3,h4,h5 {
   font-weight: 500;
 }
 
 h1 {
   font-size: 2.5rem;
-}
-
-section {
-  margin-top: 8rem;
-}
-
-section > h5 {
-  text-align: center;
-  color: var(--color-light);
-}
-
-section > h2 {
-  text-align: center;
-  color: var(--color-primary);
-  margin-bottom: 3rem;
-}
-
-.text-light {
-  color: var(--color-light);
 }
 
 a {
@@ -113,27 +89,6 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
-}
-
-/* ================== MEDIA QUERIES ================== */
-@media ${responsive.LG} {
-  .container {
-    width: var(--container-width-md);
-  }
-
-  .section {
-    margin-top: 6rem;
-  }
-}
-
-@media ${responsive.SM} {
-  .container {
-    width: var(--container-width-sm);
-  }
-
-  .section > h2 {
-    margin-bottom: 2rem;
-  }
 }
 `;
 

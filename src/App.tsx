@@ -3,7 +3,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Experience from './components/Experience';
 import Footer from './components/layouts/Footer';
-import Header from './components/layouts/Header';
+import Header from './components/layouts/Header/Header';
 import Nav from './components/layouts/Nav';
 import Portfolio from './components/Portfolio';
 import Services from './components/Services';
