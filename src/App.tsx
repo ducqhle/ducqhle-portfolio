@@ -9,6 +9,7 @@ import Portfolio from './components/Portfolio';
 import Services from './components/Services';
 import Testimonials from './components/Testimonials';
 import smoothscroll from 'smoothscroll-polyfill';
+import "./styles/app.css"
 
 smoothscroll.polyfill();
 
@@ -24,7 +25,7 @@ const App = () => {
       <Testimonials />
       <Contact />
       <Footer />
-     </>
+    </>
   );
 };
 

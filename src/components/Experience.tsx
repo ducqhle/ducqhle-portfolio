@@ -4,7 +4,7 @@ import { BsFillBootstrapFill } from 'react-icons/bs';
 import { DiCss3 } from 'react-icons/di';
 import { FaReact, FaNodeJs } from 'react-icons/fa';
 import { GrMysql } from 'react-icons/gr';
-import { SiTailwindcss, SiJavascript, SiMongodb, SiPhp, SiPython, SiExpress } from 'react-icons/si';
+import { SiTailwindcss, SiJavascript, SiMongodb, SiPhp, SiDotnet, SiExpress } from 'react-icons/si';
 import mixins from '../styles/mixins';
 
 import styled from 'styled-components';
@@ -42,7 +42,7 @@ const ExperienceContainer = styled(Container)`
     }
 
     @media ${mixins.SM} {
-      padding: 2rem;
+      padding: 1rem;
     }
   }
 
@@ -127,8 +127,8 @@ const LIST_SKILL = {
       level: 'Experienced',
     },
     {
-      name: 'Python',
-      icon: <SiPython />,
+      name: 'Dotnet',
+      icon: <SiDotnet />,
       level: 'Experienced',
     },
     {

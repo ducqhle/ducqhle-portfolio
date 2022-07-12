@@ -9,20 +9,24 @@ const CtaContainer = styled.div`
   justify-content: center; 
 
   a {
-    width: 9rem;
+    width: 10rem;
   }
+`;
+
+const DownloadButton = styled.a`
+  backdrop-filter: blur(15px);
 `;
 
 const CTA = () => {
   return (
     <CtaContainer>
-      <a
+      <DownloadButton
         className="btn"
         href={CV}
         download
       >
         Download CV
-      </a>
+      </DownloadButton>
       <a
         className="btn btn--primary"
         href="#contact"

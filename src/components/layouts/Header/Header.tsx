@@ -68,7 +68,7 @@ const MeBackdrop = styled.div`
   justify-content: center;
 
   img {
-    width: 38rem;
+    width: 35rem;
     margin-left: 3rem;
     z-index: 2;
 

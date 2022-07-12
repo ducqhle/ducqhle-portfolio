@@ -2,7 +2,11 @@ import React, { ReactElement, useState } from 'react';
 import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
 import { BiBook, BiMessageSquareDetail } from 'react-icons/bi';
 import { RiServiceLine } from 'react-icons/ri';
+import { BsBriefcase } from 'react-icons/bs';
+import { VscFeedback } from 'react-icons/vsc';
+
 import styled from 'styled-components';
+import mixins from '../../styles/mixins';
 
 const NavContainer = styled.nav`
   background: rgba(0, 0, 0, 0.3);
@@ -18,6 +22,10 @@ const NavContainer = styled.nav`
   gap: 1rem;
   border-radius: 3rem;
   backdrop-filter: blur(15px);
+
+  @media ${mixins.SM} {
+    gap: 0;
+  }
 
   a {
     background: transparent;
@@ -60,6 +68,8 @@ const Nav = () => {
       {renderNav('#about', <AiOutlineUser />)}
       {renderNav('#experience', <BiBook />)}
       {renderNav('#services', <RiServiceLine />)}
+      {renderNav('#portfolio', <BsBriefcase />)}
+      {renderNav('#testimonials', <VscFeedback />)}
       {renderNav('#contact', <BiMessageSquareDetail />)}
     </NavContainer>
   );
