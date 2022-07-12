@@ -61,7 +61,7 @@ const TestimonialsContainer = styled(Container)`
 `;
 
 const TestimonialsSwiper = styled(Swiper)`
-  margin-bottom: 4rem;
+  padding-bottom: 3rem;
 `;
 
 const TestimonialsArticle = styled.article`
