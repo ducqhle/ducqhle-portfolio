@@ -1,6 +1,6 @@
 import React, { ReactElement, useState } from 'react';
 import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
-import { BiBook, BiMessageSquareDetail } from 'react-icons/bi';
+import { BiBook } from 'react-icons/bi';
 import { RiServiceLine } from 'react-icons/ri';
 import { BsBriefcase } from 'react-icons/bs';
 import { VscFeedback } from 'react-icons/vsc';
@@ -24,7 +24,7 @@ const NavContainer = styled.nav`
   backdrop-filter: blur(15px);
 
   @media ${mixins.SM} {
-    gap: 0;
+    gap: 0.5rem;
   }
 
   a {
@@ -70,7 +70,6 @@ const Nav = () => {
       {renderNav('#services', <RiServiceLine />)}
       {renderNav('#portfolio', <BsBriefcase />)}
       {renderNav('#testimonials', <VscFeedback />)}
-      {renderNav('#contact', <BiMessageSquareDetail />)}
     </NavContainer>
   );
 };

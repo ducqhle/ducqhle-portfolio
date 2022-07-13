@@ -62,6 +62,10 @@ const TestimonialsContainer = styled(Container)`
 
 const TestimonialsSwiper = styled(Swiper)`
   padding-bottom: 3rem;
+
+  .swiper-pagination-bullet {
+    background-color: var(--color-primary);
+  }
 `;
 
 const TestimonialsArticle = styled.article`

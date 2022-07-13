@@ -61,11 +61,11 @@ const MeImg = styled.img`
 const MeBackdrop = styled.div`
   position: absolute;
   border-radius: 0;
-  height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: -1;
 
   img {
     width: 35rem;

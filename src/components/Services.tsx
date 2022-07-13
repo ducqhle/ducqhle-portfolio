@@ -6,38 +6,38 @@ import { Container, Section } from './commons';
 
 const SERVICE_LIST = [
   {
-    serviceName: "UI/UX Design",
+    serviceName: 'UI/UX Design',
     services: [
-      "Lorem ipsum dolor sit amet consectetur elit.",
-      "Lorem dolor sit amet consectetur elit.",
-      "Lorem ipsum dolor amet consectetur elit.",
-      "Lorem ipsum dolor consectetur sit amet consectetur elit.",
-      "Lorem ipsum dolor sit amet consectetur elit.",
-    ]
+      'Lorem ipsum dolor sit amet consectetur elit.',
+      'Lorem dolor sit amet consectetur elit.',
+      'Lorem ipsum dolor amet consectetur elit.',
+      'Lorem ipsum dolor consectetur sit amet consectetur elit.',
+      'Lorem ipsum dolor sit amet consectetur elit.',
+    ],
   },
   {
-    serviceName: "Web Development",
+    serviceName: 'Web Development',
     services: [
-      "Lorem ipsum dolor sit amet consectetur elit.",
-      "Lorem consectetur ipsum dolor sit amet consectetur elit.",
-      "Lorem ipsum dolor consectetur sit amet consectetur elit.",
-      "Lorem ipsum dolor sit amet consectetur elit.",
-      "Lorem ipsum consectetur dolor sit amet consectetur elit.",
-      "Lorem consectetur ipsum dolor sit amet consectetur elit.",
-      "Lorem ipsum dolor sit amet consectetur elit.",
-    ]
+      'Lorem ipsum dolor sit amet consectetur elit.',
+      'Lorem consectetur ipsum dolor sit amet consectetur elit.',
+      'Lorem ipsum dolor consectetur sit amet consectetur elit.',
+      'Lorem ipsum dolor sit amet consectetur elit.',
+      'Lorem ipsum consectetur dolor sit amet consectetur elit.',
+      'Lorem consectetur ipsum dolor sit amet consectetur elit.',
+      'Lorem ipsum dolor sit amet consectetur elit.',
+    ],
   },
   {
-    serviceName: "Content Creation",
+    serviceName: 'Content Creation',
     services: [
-      "Lorem ipsum dolor amet sit amet consectetur elit.",
-      "Lorem  dolor ipsum dolor consectetur sit amet consectetur elit.",
-      "Lorem ipsum consectetur dolor sit amet consectetur elit.",
-      "Lorem ipsum ipsum dolor sit amet consectetur elit.",
-      "Lorem ipsum dolor sit amet consectetur elit.",
-    ]
-  }
-]
+      'Lorem ipsum dolor amet sit amet consectetur elit.',
+      'Lorem  dolor ipsum dolor consectetur sit amet consectetur elit.',
+      'Lorem ipsum consectetur dolor sit amet consectetur elit.',
+      'Lorem ipsum ipsum dolor sit amet consectetur elit.',
+      'Lorem ipsum dolor sit amet consectetur elit.',
+    ],
+  },
+];
 
 const ServicesContainer = styled(Container)`
   display: grid;
@@ -54,7 +54,7 @@ const ServiceContainer = styled.article`
   background: var(--color-bg-variant);
   border-radius: 0 0 2rem 2rem;
   border: 1px solid var(--color-primary);
-  height: fit-content;
+  height: auto;
   transition: var(--transition);
 
   &:hover {
@@ -63,8 +63,8 @@ const ServiceContainer = styled.article`
     cursor: default;
   }
 
-  @media ${mixins.MD} {
-    height: auto;
+  @media ${mixins.SM} {
+    height: fit-content;
   }
 `;
 
@@ -101,13 +101,13 @@ const ServiceListIcon = styled.div`
 `;
 
 const Services = () => {
-  return <Section id="services">
-    <h5>What I Offer</h5>
-    <h2>Services</h2>
+  return (
+    <Section id="services">
+      <h5>What I Offer</h5>
+      <h2>Services</h2>
 
-    <ServicesContainer>
-      {
-        SERVICE_LIST.map(sl => (
+      <ServicesContainer>
+        {SERVICE_LIST.map(sl => (
           <ServiceContainer>
             <ServiceHead>
               <h3>{sl.serviceName}</h3>
@@ -116,17 +116,18 @@ const Services = () => {
             <ServiceList>
               {sl.services.map(s => (
                 <li>
-                  <ServiceListIcon><BiCheck /></ServiceListIcon>
+                  <ServiceListIcon>
+                    <BiCheck />
+                  </ServiceListIcon>
                   <p>{s}</p>
                 </li>
               ))}
             </ServiceList>
           </ServiceContainer>
-        ))
-      }
-
-    </ServicesContainer>
-  </Section>;
+        ))}
+      </ServicesContainer>
+    </Section>
+  );
 };
 
 export default Services;
