@@ -29,13 +29,13 @@ const HeaderSocials = () => {
   return (
     <HeaderSocialsContainer>
       <a
-        href="https://linkedin.com"
+        href="https://linkedin.com/ducqhle"
         target="_blank"
       >
         <BsLinkedin size={'1.5rem'} />
       </a>
       <a
-        href="https://github.com"
+        href="https://github.com/ducqhl"
         target="_blank"
       >
         <BsGithub size={'1.5rem'} />

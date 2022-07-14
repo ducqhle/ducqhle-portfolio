@@ -67,9 +67,9 @@ const Nav = () => {
       {renderNav('#', <AiOutlineHome />)}
       {renderNav('#about', <AiOutlineUser />)}
       {renderNav('#experience', <BiBook />)}
-      {renderNav('#services', <RiServiceLine />)}
       {renderNav('#portfolio', <BsBriefcase />)}
-      {renderNav('#testimonials', <VscFeedback />)}
+      {renderNav('#testimonials', <RiServiceLine />)}
+      {renderNav('#contact', <VscFeedback />)}
     </NavContainer>
   );
 };

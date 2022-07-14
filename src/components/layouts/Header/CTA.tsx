@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import CV from '../../../assets/files/cv.pdf';
+import CV from '../../../assets/files/CV.pdf';
 
 const CtaContainer = styled.div`
   margin-top: 2.5rem;

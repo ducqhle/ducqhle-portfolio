@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import mixins from '../../styles/mixins';
 
 export default styled.section`
-  padding-top: 8rem;
+  padding-top: 5rem;
   min-height: 100vh;
 
   h5 {

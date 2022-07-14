@@ -47,6 +47,12 @@ const MeImg = styled.img`
   border-radius: 50%;
   z-index: 3;
 
+  transition: var(--transition);
+
+  &:hover {
+    transform: rotate(10deg);
+  }
+
   @media ${mixins.MD} {
     width: 22rem;
     height: 22rem;
@@ -78,8 +84,8 @@ const MeBackdrop = styled.div`
   }
 `;
 
-const ScrollDownContainer = styled.div`
-  position: absolute;
+const ScrollUpContainer = styled.div`
+  position: fixed;
   right: 0rem;
   bottom: 5rem;
   font-weight: 300;
@@ -118,14 +124,9 @@ const Header = () => {
           </MeBackdrop>
         </MeContainer>
 
-        <ScrollDownContainer>
-          <a
-            href="#contact"
-            className="scroll__down"
-          >
-            Scroll Down
-          </a>
-        </ScrollDownContainer>
+        <ScrollUpContainer>
+          <a href="#">Scroll Up</a>
+        </ScrollUpContainer>
         <HeaderSocials />
       </HeaderContainer>
     </StyledHeader>

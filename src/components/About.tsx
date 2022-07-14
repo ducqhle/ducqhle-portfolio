@@ -129,22 +129,24 @@ const About = () => {
                 <FiUsers />
               </AboutIcon>
 
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <h5>Collaboration</h5>
+              <small>5+ Worldwide (US, AU)</small>
             </AboutCard>
             <AboutCard>
               <AboutIcon>
                 <VscFolderLibrary />
               </AboutIcon>
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>20+ Participated</small>
             </AboutCard>
           </AboutCards>
           <AboutContent>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, odit libero inventore cum neque eum
-              provident placeat debitis vitae quibusdam doloribus laudantium, repellendus sunt asperiores, dignissimos
-              possimus consequuntur eos ea.
+              Have 3 years of experience in software development. I took responsibility and have high standards on
+              project quality. Good at teamwork and collaboration even remotely. Contributed values not only by
+              fulfilling works with high-quality, but also always continually find a way to make thing better. Kept
+              positive attitude towards all challenges with the mindset that technologies are in order to solve problems
+              better and better.
             </p>
             <a
               href="#contact"

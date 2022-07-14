@@ -2,9 +2,10 @@ import React from 'react';
 import { AiFillHtml5 } from 'react-icons/ai';
 import { BsFillBootstrapFill } from 'react-icons/bs';
 import { DiCss3 } from 'react-icons/di';
-import { FaReact, FaNodeJs } from 'react-icons/fa';
+import { FaReact, FaNodeJs, FaAws } from 'react-icons/fa';
 import { GrMysql } from 'react-icons/gr';
-import { SiTailwindcss, SiJavascript, SiMongodb, SiPhp, SiDotnet, SiExpress } from 'react-icons/si';
+import { SiJavascript, SiMongodb, SiPhp, SiDotnet, SiExpress, SiTypescript, SiMaterialui } from 'react-icons/si';
+import { TbBrandNextjs } from 'react-icons/tb';
 import mixins from '../styles/mixins';
 
 import styled from 'styled-components';
@@ -90,13 +91,23 @@ const LIST_SKILL = {
       level: 'Intermediate',
     },
     {
+      name: 'TypeScript',
+      icon: <SiTypescript />,
+      level: 'Experienced',
+    },
+    {
       name: 'Bootstrap',
       icon: <BsFillBootstrapFill />,
       level: 'Experienced',
     },
     {
-      name: 'Tailwind',
-      icon: <SiTailwindcss />,
+      name: 'Material UI',
+      icon: <SiMaterialui />,
+      level: 'Experienced',
+    },
+    {
+      name: 'NextJS',
+      icon: <TbBrandNextjs />,
       level: 'Experienced',
     },
     {
@@ -112,29 +123,25 @@ const LIST_SKILL = {
       level: 'Experienced',
     },
     {
+      name: 'Express',
+      icon: <SiExpress />,
+      level: 'Experienced',
+    },
+    {
       name: 'MongoDB',
       icon: <SiMongodb />,
       level: 'Intermediate',
     },
-    {
-      name: 'PHP',
-      icon: <SiPhp />,
-      level: 'Experienced',
-    },
+    { name: 'AWS', icon: <FaAws />, level: 'Intermediate' },
     {
       name: 'MySQL',
       icon: <GrMysql />,
       level: 'Experienced',
     },
     {
-      name: 'Dotnet',
+      name: '.NET Core',
       icon: <SiDotnet />,
-      level: 'Experienced',
-    },
-    {
-      name: 'Express',
-      icon: <SiExpress />,
-      level: 'Experienced',
+      level: 'Intermediate',
     },
   ],
 };

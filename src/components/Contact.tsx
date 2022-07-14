@@ -58,9 +58,13 @@ const ContactOption = styled.article`
 `;
 
 const ContactIcon = styled.div`
-  width: 1.5rem;
-  height: 1.5rem;
   font-size: 1.5rem;
+
+  img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.3rem;
+  }
 `;
 
 const ContactChannel = styled.div`
@@ -142,7 +146,7 @@ const Contact = () => {
               </ContactIcon>
               <ConctactChannelInfo>
                 <h4>Messenger </h4>
-                <h5>duqhle</h5>
+                <h5>ducqhle</h5>
                 <a href="https://m.me/ducqhle">Send a message</a>
               </ConctactChannelInfo>
             </ContactChannel>
