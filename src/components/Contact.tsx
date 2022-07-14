@@ -59,10 +59,10 @@ const ContactOption = styled.article`
 
 const ContactIcon = styled.div`
   font-size: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
 
   img {
-    width: 1.5rem;
-    height: 1.5rem;
     margin-top: 0.3rem;
   }
 `;
@@ -70,6 +70,7 @@ const ContactIcon = styled.div`
 const ContactChannel = styled.div`
   display: flex;
   gap: 1rem;
+  min-width: 11rem;
 `;
 
 const ConctactChannelInfo = styled.div`
