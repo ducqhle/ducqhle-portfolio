@@ -6,44 +6,70 @@ import P2 from '../assets/images/p2.png';
 import P3 from '../assets/images/p3.png';
 import P4 from '../assets/images/portfolio6.jpg';
 import P5 from '../assets/images/p5.png';
-import P6 from '../assets/images/p6.png';
+import P7 from '../assets/images/p7.png';
 import mixins from '../styles/mixins';
 
 const PORTFOLIO_ITEMS = [
+  {
+    image: P7,
+    title: 'GreenLogs',
+    liveDemo: 'https://greenlogs.netlify.app/',
+    linkSource: 'https://github.com/ducqhl/greenlogs',
+    technology: [
+      'Vue3',
+      'Quill',
+      'Firestore',
+      'Vite',
+    ],
+  },
   {
     image: P1,
     title: 'Nike Shoes Shoppi',
     linkSource: 'https://github.com/ducqhl/nike-shoes-shoppi',
     liveDemo: 'https://nike-shoes-shoppi.netlify.app/',
+    technology: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+    ],
   },
   {
     image: P2,
     title: 'E-commerce Appi',
     linkSource: 'https://github.com/ducqhl/e-commerce-app',
     liveDemo: 'https://ecommerce-appi.netlify.app/',
+    technology: [
+      'React',
+      'MongoDB',
+      'NodeJS',
+      'Express',
+      'StyledComponent',
+    ],
   },
   {
     image: P3,
     title: 'E-commerce Appi Admin',
     linkSource: 'https://github.com/ducqhl/e-commerce-app',
     liveDemo: 'https://ecommerce-appi-admin.netlify.app/',
+    technology: [
+      'React',
+      'MongoDB',
+      'NodeJS',
+      'Express',
+      'StyledComponent',
+    ],
   },
   {
     image: P4,
-    title: 'MREN Application',
+    title: 'MERN Application',
     linkSource: 'https://github.com/ducqhl/mern-application',
     liveDemo: 'https://memory-appi.netlify.app/',
-  },
-
-  {
-    image: P5,
-    title: 'Solar Home Bundle',
-    liveDemo: 'https://experienceon.com.au/solar-home-bundle',
-  },
-  {
-    image: P6,
-    title: 'Kelley Blue Book ',
-    liveDemo: 'https://www.kbb.com/',
+    technology: [
+      'React',
+      'MongoDB',
+      'NodeJS',
+      'Express',
+    ],
   },
 ];
 
@@ -70,8 +96,17 @@ const PortfolioItem = styled.article`
   }
 
   h3 {
-    margin: 1.2rem 0 1.2rem;
+    margin: 1.2rem 0 0rem;
   }
+`;
+
+const PortfolioItemTechnology = styled.span`
+  font-size: 0.8rem;
+  color: var(--color-primary-variant);
+  font-style: italic;
+  line-height: 1rem !important;
+  min-height: 3rem;
+  display: block;
 `;
 
 const PortfolioItemCta = styled.div`
@@ -105,6 +140,7 @@ const Portfolio = () => {
             </PortfolioItemImage>
 
             <h3>{p.title}</h3>
+            {p.technology && <PortfolioItemTechnology>{p.technology.join(', ')}</PortfolioItemTechnology>}
 
             <PortfolioItemCta>
               {p.linkSource && (
