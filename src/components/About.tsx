@@ -142,11 +142,11 @@ const About = () => {
           </AboutCards>
           <AboutContent>
             <p>
-              Have 3 years of experience in software development. I took responsibility and have high standards on
-              project quality. Good at teamwork and collaboration even remotely. Contributed values not only by
-              fulfilling works with high-quality, but also always continually find a way to make thing better. Kept
-              positive attitude towards all challenges with the mindset that technologies are in order to solve problems
-              better and better.
+              4 years of experience in software development. Has been responsible for and maintains high quality
+              standards in every project involved. Contributed values to the project not only by getting the job done,
+              but by constantly looking for ways to make it better. Keep a positive attitude towards every challenge
+              with the mindset that technology is about getting better at solving problems. Looking forward to the
+              opportunity to work abroad.
             </p>
             <a
               href="#contact"
