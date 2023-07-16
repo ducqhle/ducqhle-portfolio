@@ -1,6 +1,6 @@
 import React from 'react';
 import CTA from './CTA';
-import ME from '../../../assets/images/me-true.png';
+import ME from '../../../assets/images/me-true.jpg';
 import ME_BACKDROP from '../../../assets/images/me-backdrop.png';
 import HeaderSocials from './HeaderSocials';
 import styled from 'styled-components';
