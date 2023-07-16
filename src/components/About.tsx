@@ -142,11 +142,10 @@ const About = () => {
           </AboutCards>
           <AboutContent>
             <p>
-              4 years of experience in software development. Has been responsible for and maintains high quality
-              standards in every project involved. Contributed values to the project not only by getting the job done,
-              but by constantly looking for ways to make it better. Keep a positive attitude towards every challenge
-              with the mindset that technology is about getting better at solving problems. Looking forward to the
-              opportunity to work abroad.
+              4 years of experience developing highly interactive applications using the latest web technologies.
+              Contributed to more than 5 projects at world class had SEO optimized, high interactive UX/UI, great
+              performance and full responsive. Not only by getting the task done but also constantly looking for ways to
+              make it better. A long life leaner with the mindset that technology is to solving problems.
             </p>
             <a
               href="#contact"

@@ -23,6 +23,7 @@ const SERVICE_LIST = [
       'Lorem ipsum dolor consectetur sit amet consectetur elit.',
       'Lorem ipsum dolor sit amet consectetur elit.',
       'Lorem ipsum consectetur dolor sit amet consectetur elit.',
+      'Lorem ipsum consectetur dolor sit amet consectetur elit.',
       'Lorem consectetur ipsum dolor sit amet consectetur elit.',
       'Lorem ipsum dolor sit amet consectetur elit.',
     ],
