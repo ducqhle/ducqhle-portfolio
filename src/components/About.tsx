@@ -122,7 +122,7 @@ const About = () => {
                 <FaAward />
               </AboutIcon>
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>4+ Years Working</small>
             </AboutCard>
             <AboutCard>
               <AboutIcon>
