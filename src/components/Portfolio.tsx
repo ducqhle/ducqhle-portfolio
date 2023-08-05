@@ -7,6 +7,7 @@ import P3 from '../assets/images/p3.png';
 import P4 from '../assets/images/portfolio6.jpg';
 import P5 from '../assets/images/p5.png';
 import P7 from '../assets/images/p7.png';
+import P8 from '../assets/images/p8.png';
 import mixins from '../styles/mixins';
 
 const PORTFOLIO_ITEMS = [
@@ -69,6 +70,16 @@ const PORTFOLIO_ITEMS = [
       'MongoDB',
       'NodeJS',
       'Express',
+    ],
+  },
+  {
+    image: P8,
+    title: 'Kar Hub',
+    linkSource: 'https://github.com/ducqhl/car-hub',
+    liveDemo: 'https://karhub.netlify.app/',
+    technology: [
+      'React',
+      'NextJS',
     ],
   },
 ];
