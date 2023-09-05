@@ -103,7 +103,7 @@ const Header = () => {
       <HeaderContainer className="container">
         <TopHeaderContainer>
           <h5>Hello I'm</h5>
-          <h1>Duc Le</h1>
+          <h1>Duc (David) Le</h1>
           <h5 className="text-light">Fullstack Developer</h5>
           <CTA />
         </TopHeaderContainer>
