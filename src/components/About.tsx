@@ -122,7 +122,7 @@ const About = () => {
                 <FaAward />
               </AboutIcon>
               <h5>Experience</h5>
-              <small>4+ Years Working</small>
+              <small>5+ Years Working</small>
             </AboutCard>
             <AboutCard>
               <AboutIcon>
@@ -142,7 +142,7 @@ const About = () => {
           </AboutCards>
           <AboutContent>
             <p>
-              4 years of experience developing highly interactive applications using the latest web technologies.
+              About 5 years of experience developing highly interactive applications using the latest web technologies.
               Contributed to more than 5 projects at world class had SEO optimized, high interactive UX/UI, great
               performance and full responsive. Not only by getting the task done but also constantly looking for ways to
               make it better. A long life leaner with the mindset that technology is to solving problems.
