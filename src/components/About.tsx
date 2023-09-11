@@ -142,10 +142,10 @@ const About = () => {
           </AboutCards>
           <AboutContent>
             <p>
-              About 5 years of experience developing highly interactive applications using the latest web technologies.
-              Contributed to more than 5 projects at world class had SEO optimized, high interactive UX/UI, great
-              performance and full responsive. Not only by getting the task done but also constantly looking for ways to
-              make it better. A long life leaner with the mindset that technology is to solving problems.
+              With about 5 years of experience, I've developed highly interactive applications using the latest web
+              technologies. I've contributed to 5+ projects with SEO optimization, high interactive UX/UI, performance,
+              and full responsive. I took pride in both getting the task done and constantly seeking ways to make it
+              better. I'm a lifelong learner with a problem-solving mindset, always striving for excellence.
             </p>
             <a
               href="#contact"
